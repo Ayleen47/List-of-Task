@@ -1,0 +1,67 @@
+article{
+    background-color: #e8e4d0;
+    padding: 8px;
+    margin: 20px 0;
+    width: 50%;
+    text-align: center;
+    max-width: 800px;
+    box-sizing: border-box;
+    min-width: 315px;
+}
+h1{
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#fecha_hora{
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    width: 300px;
+    margin: 0;
+}
+.redondeado{
+    border-bottom: 8px;
+    border-radius: 8px;
+}
+*{
+    text-transform: capitalize;
+    border-radius: 27px; 
+}
+ul{
+    list-style: none;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;    
+    margin: 0 auto;
+    padding: 0;
+}
+li{
+    background-color: rgb(205, 145, 145);
+    border: 3px solid brown;
+    margin: 10px 0px;
+    width: 100%;
+    height: 30px;
+    padding-top: 2px;
+    box-sizing: border-box;
+}
+ul li.completed {
+    background-color: rgb(146, 227, 116);
+    text-decoration: line-through;
+    border: 3px solid rgb(15, 55, 15);
+    
+}
+#cantidad{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+

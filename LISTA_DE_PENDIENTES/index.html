@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Tareas <3</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <article>
+        <div id="fecha_hora"></div>
+
+        <h1>Lista de Pendientes</h1>
+
+        <input type="text" placeholder=" Agregue una nueva tarea" class="redondeado" id="nuevaTarea">
+        <button class="redondeado" onclick="agregarTarea()" style="background-color: rgb(223, 255, 237); color: rgb(20, 20, 20);"><b>Agregar</b></button>
+
+        <div id="cantidad" >
+            <div>
+            <h4 id="pendientes">Pendientes: 0</h4>
+            </div>
+
+            <div>
+            <h4 id="realizadas">Realizadas: 0</h4>
+            </div>
+        </div>
+
+        <ul id="listaTareas">
+        </ul>
+    </article>
+</body>
+</html>
